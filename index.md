@@ -18,6 +18,10 @@ qsort (x:xs) = qsort smaller ++ [x] ++ qsort larger
         larger  = [b | b <- xs, b >  x]
 ```
 
+|表|の|タイトル|だよ|
+|:-:|:-:|:-:|:-:|
+|1|2|3|4|
+
 ↓ Python
 
 ```python
